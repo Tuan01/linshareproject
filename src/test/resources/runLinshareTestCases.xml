@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Linshare Web"  thread-count="2">
+
+	<parameter name="url" value="https://user.linshare-4-2-on-commit.integration-linshare.org/" />
+	<parameter name="urlmail" value="https://webmail.linshare-4-2-on-commit.integration-linshare.org/" />
+
+	<listeners>
+		 <listener class-name="commons.MethodListener"/>
+		 <listener class-name="reportConfig.ExtendReportListener"/>
+		 <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+         <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+	</listeners>
+		
+	<test name="Run on chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+<!--			<class name="linagora.linshare.sharedspace.SharedSpace_01_Workgroup_Admin_Role"/>-->
+<!--			<class name="linagora.linshare.sharedspace.SharedSpace_02_Workgroup_Contributor_Role"/>-->
+			<class name="linagora.linshare.sharedspace.SharedSpace_03_Workgroup_Write_Role"/>
+		</classes>
+	</test>
+
+<!--	<test name="Run on firefox">-->
+<!--		<parameter name="browser" value="firefox" />-->
+<!--		<classes>-->
+<!--			<class name="linagora.linshare.sharedspace.SharedSpace_01_Workgroup_Admin_Role"/>-->
+<!--			<class name="linagora.linshare.sharedspace.SharedSpace_02_Workgroup_Contributor_Role"/>-->
+<!--		</classes>-->
+<!--	</test>-->
+
+</suite> 

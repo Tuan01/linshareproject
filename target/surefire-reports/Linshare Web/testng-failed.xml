@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Linshare Web]" verbose="0">
+  <parameter name="urlmail" value="https://webmail.linshare-4-2-on-commit.integration-linshare.org/"/>
+  <parameter name="url" value="https://user.linshare-4-2-on-commit.integration-linshare.org/"/>
+  <listeners>
+    <listener class-name="commons.MethodListener"/>
+    <listener class-name="reportConfig.ExtendReportListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="2" name="Run on chrome(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="linagora.linshare.sharedspace.SharedSpace_03_Workgroup_Write_Role">
+        <methods>
+          <include name="SharedSpace_04_User_Can_Add_Member_With_Writer_Right"/>
+          <include name="SharedSpace_02_User_Can_Create_Folder_In_Workgroup_With_Admin_Right"/>
+          <include name="SharedSpace_05_Invited_User_Receive_Workgroup_With_Contributor_Right_In_Shared_Space"/>
+          <include name="beforeClass"/>
+          <include name="SharedSpace_01_User_Can_Create_WorkGroup_With_New_Name"/>
+          <include name="SharedSpace_03_User_Can_Upload_File_In_Workgroup"/>
+        </methods>
+      </class> <!-- linagora.linshare.sharedspace.SharedSpace_03_Workgroup_Write_Role -->
+    </classes>
+  </test> <!-- Run on chrome(failed) -->
+</suite> <!-- Failed suite [Linshare Web] -->

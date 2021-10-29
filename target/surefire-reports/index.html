@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Linshare_Web" class="navigator-link">
+              <span class="suite-name border-skipped">Linshare Web</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Linshare_Web" class="navigator-link ">
+                    <span>runLinshareTestCases.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Linshare_Web" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Linshare_Web" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Linshare_Web" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Linshare_Web" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Linshare_Web" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Linshare_Web" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,  5 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Linshare_Web" class="hide-methods skipped suite-Linshare_Web"> (hide)</a> <!-- hide-methods skipped suite-Linshare_Web -->
+                      <a href="#" panel-name="suite-Linshare_Web" class="show-methods skipped suite-Linshare_Web"> (show)</a> <!-- show-methods skipped suite-Linshare_Web -->
+                    </span>
+                    <div class="method-list-content skipped suite-Linshare_Web">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Linshare_Web" title="linagora.linshare.sharedspace.SharedSpace_03_Workgroup_Write_Role" class="method navigator-link" hash-for-method="SharedSpace_01_User_Can_Create_WorkGroup_With_New_Name">SharedSpace_01_User_Can_Create_WorkGroup_With_New_Name</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Linshare_Web" title="linagora.linshare.sharedspace.SharedSpace_03_Workgroup_Write_Role" class="method navigator-link" hash-for-method="SharedSpace_02_User_Can_Create_Folder_In_Workgroup_With_Admin_Right">SharedSpace_02_User_Can_Create_Folder_In_Workgroup_With_Admin_Right</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Linshare_Web" title="linagora.linshare.sharedspace.SharedSpace_03_Workgroup_Write_Role" class="method navigator-link" hash-for-method="SharedSpace_03_User_Can_Upload_File_In_Workgroup">SharedSpace_03_User_Can_Upload_File_In_Workgroup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Linshare_Web" title="linagora.linshare.sharedspace.SharedSpace_03_Workgroup_Write_Role" class="method navigator-link" hash-for-method="SharedSpace_04_User_Can_Add_Member_With_Writer_Right">SharedSpace_04_User_Can_Add_Member_With_Writer_Right</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Linshare_Web" title="linagora.linshare.sharedspace.SharedSpace_03_Workgroup_Write_Role" class="method navigator-link" hash-for-method="SharedSpace_05_Invited_User_Receive_Workgroup_With_Contributor_Right_In_Shared_Space">SharedSpace_05_Invited_User_Receive_Workgroup_With_Contributor_Right_In_Shared_Space</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Linshare_Web -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Linshare_Web" class="panel Linshare_Web">
+          <div class="suite-Linshare_Web-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">linagora.linshare.sharedspace.SharedSpace_03_Workgroup_Write_Role</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SharedSpace_01_User_Can_Create_WorkGroup_With_New_Name">
+                  </a> <!-- SharedSpace_01_User_Can_Create_WorkGroup_With_New_Name -->
+                  <span class="method-name">SharedSpace_01_User_Can_Create_WorkGroup_With_New_Name</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 292.769
+  (Session info: chrome=92.0.4515.159)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;tuanpv-HP-ProBook-440-G6&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-84-generic&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.oj0CbE}, goog:chromeOptions: {debuggerAddress: localhost:43213}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ca05ba87e88bf8434cfbc716e7c0eff8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at commons.BaseTest.getBrowserForDriver(BaseTest.java:52)
+	at linagora.linshare.sharedspace.SharedSpace_03_Workgroup_Write_Role.beforeClass(SharedSpace_03_Workgroup_Write_Role.java:31)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SharedSpace_02_User_Can_Create_Folder_In_Workgroup_With_Admin_Right">
+                  </a> <!-- SharedSpace_02_User_Can_Create_Folder_In_Workgroup_With_Admin_Right -->
+                  <span class="method-name">SharedSpace_02_User_Can_Create_Folder_In_Workgroup_With_Admin_Right</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 292.769
+  (Session info: chrome=92.0.4515.159)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;tuanpv-HP-ProBook-440-G6&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-84-generic&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.oj0CbE}, goog:chromeOptions: {debuggerAddress: localhost:43213}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ca05ba87e88bf8434cfbc716e7c0eff8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at commons.BaseTest.getBrowserForDriver(BaseTest.java:52)
+	at linagora.linshare.sharedspace.SharedSpace_03_Workgroup_Write_Role.beforeClass(SharedSpace_03_Workgroup_Write_Role.java:31)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SharedSpace_03_User_Can_Upload_File_In_Workgroup">
+                  </a> <!-- SharedSpace_03_User_Can_Upload_File_In_Workgroup -->
+                  <span class="method-name">SharedSpace_03_User_Can_Upload_File_In_Workgroup</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 292.769
+  (Session info: chrome=92.0.4515.159)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;tuanpv-HP-ProBook-440-G6&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-84-generic&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.oj0CbE}, goog:chromeOptions: {debuggerAddress: localhost:43213}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ca05ba87e88bf8434cfbc716e7c0eff8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at commons.BaseTest.getBrowserForDriver(BaseTest.java:52)
+	at linagora.linshare.sharedspace.SharedSpace_03_Workgroup_Write_Role.beforeClass(SharedSpace_03_Workgroup_Write_Role.java:31)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SharedSpace_04_User_Can_Add_Member_With_Writer_Right">
+                  </a> <!-- SharedSpace_04_User_Can_Add_Member_With_Writer_Right -->
+                  <span class="method-name">SharedSpace_04_User_Can_Add_Member_With_Writer_Right</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 292.769
+  (Session info: chrome=92.0.4515.159)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;tuanpv-HP-ProBook-440-G6&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-84-generic&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.oj0CbE}, goog:chromeOptions: {debuggerAddress: localhost:43213}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ca05ba87e88bf8434cfbc716e7c0eff8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at commons.BaseTest.getBrowserForDriver(BaseTest.java:52)
+	at linagora.linshare.sharedspace.SharedSpace_03_Workgroup_Write_Role.beforeClass(SharedSpace_03_Workgroup_Write_Role.java:31)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SharedSpace_05_Invited_User_Receive_Workgroup_With_Contributor_Right_In_Shared_Space">
+                  </a> <!-- SharedSpace_05_Invited_User_Receive_Workgroup_With_Contributor_Right_In_Shared_Space -->
+                  <span class="method-name">SharedSpace_05_Invited_User_Receive_Workgroup_With_Contributor_Right_In_Shared_Space</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 292.769
+  (Session info: chrome=92.0.4515.159)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;tuanpv-HP-ProBook-440-G6&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-84-generic&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.oj0CbE}, goog:chromeOptions: {debuggerAddress: localhost:43213}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ca05ba87e88bf8434cfbc716e7c0eff8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at commons.BaseTest.getBrowserForDriver(BaseTest.java:52)
+	at linagora.linshare.sharedspace.SharedSpace_03_Workgroup_Write_Role.beforeClass(SharedSpace_03_Workgroup_Write_Role.java:31)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Linshare_Web-class-skipped -->
+        </div> <!-- panel Linshare_Web -->
+        <div panel-name="test-xml-Linshare_Web" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/home/tuanpv/TRAINING AUTOMATION/Automation_TuanPV/hybrid-linshare-framework/src/test/resources/runLinshareTestCases.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; name=&quot;Linshare Web&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;urlmail&quot; value=&quot;https://webmail.linshare-4-2-on-commit.integration-linshare.org/&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://user.linshare-4-2-on-commit.integration-linshare.org/&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;commons.MethodListener&quot;/&gt;
+    &lt;listener class-name=&quot;reportConfig.ExtendReportListener&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;Run on chrome&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;linagora.linshare.sharedspace.SharedSpace_03_Workgroup_Write_Role&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Run on chrome --&gt;
+&lt;/suite&gt; &lt;!-- Linshare Web --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Linshare_Web" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Linshare Web</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Run on chrome (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Linshare_Web" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Linshare Web</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Linshare_Web" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Linshare Web</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Linshare_Web');
+function tableData_Linshare_Web() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'SharedSpace_03_User_Can_Upload_File_In_Workgroup')
+data.setCell(0, 2, 'linagora.linshare.sharedspace.SharedSpace_03_Workgroup_Write_Role')
+data.setCell(0, 3, 0);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SharedSpace_02_User_Can_Create_Folder_In_Workgroup_With_Admin_Right')
+data.setCell(1, 2, 'linagora.linshare.sharedspace.SharedSpace_03_Workgroup_Write_Role')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'SharedSpace_04_User_Can_Add_Member_With_Writer_Right')
+data.setCell(2, 2, 'linagora.linshare.sharedspace.SharedSpace_03_Workgroup_Write_Role')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'SharedSpace_05_Invited_User_Receive_Workgroup_With_Contributor_Right_In_Shared_Space')
+data.setCell(3, 2, 'linagora.linshare.sharedspace.SharedSpace_03_Workgroup_Write_Role')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'SharedSpace_01_User_Can_Create_WorkGroup_With_New_Name')
+data.setCell(4, 2, 'linagora.linshare.sharedspace.SharedSpace_03_Workgroup_Write_Role')
+data.setCell(4, 3, 0);
+window.suiteTableData['Linshare_Web']= { tableData: data, tableDiv: 'times-div-Linshare_Web'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-Linshare_Web">
+              </div> <!-- times-div-Linshare_Web -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Linshare_Web" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Linshare Web</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Linshare_Web" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Linshare_Web" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">linagora.linshare.sharedspace.SharedSpace_03_Workgroup_Write_Role</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeClass(chrome, https://user.linshare-4-2-on-commit.integration-linshare.org/)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">SharedSpace_01_User_Can_Create_WorkGroup_With_New_Name</span>
+                <span class="method-start">-1631452483354 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SharedSpace_02_User_Can_Create_Folder_In_Workgroup_With_Admin_Right</span>
+                <span class="method-start">-1631452483354 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SharedSpace_03_User_Can_Upload_File_In_Workgroup</span>
+                <span class="method-start">-1631452483354 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SharedSpace_04_User_Can_Add_Member_With_Writer_Right</span>
+                <span class="method-start">-1631452483354 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SharedSpace_05_Invited_User_Receive_Workgroup_With_Contributor_Right_In_Shared_Space</span>
+                <span class="method-start">-1631452483354 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
