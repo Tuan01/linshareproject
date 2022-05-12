@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on chrome"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="57.070">
+  <properties />
+  
+  
+            <testcase name="SharedSpace_03_User_Can_Upload_File_In_Workgroup" time="12.115" classname="linagora.linshare.sharedspace.SharedSpace_03_Workgroup_Write_Role" />
+                <testcase name="SharedSpace_02_User_Can_Create_Folder_In_Workgroup_With_Admin_Right" time="9.098" classname="linagora.linshare.sharedspace.SharedSpace_03_Workgroup_Write_Role" />
+                <testcase name="SharedSpace_04_User_Can_Add_Member_With_Writer_Right" time="9.784" classname="linagora.linshare.sharedspace.SharedSpace_03_Workgroup_Write_Role" />
+                <testcase name="SharedSpace_05_Invited_User_Receive_Workgroup_With_Contributor_Right_In_Shared_Space" time="11.977" classname="linagora.linshare.sharedspace.SharedSpace_03_Workgroup_Write_Role" />
+                <testcase name="SharedSpace_01_User_Can_Create_WorkGroup_With_New_Name" time="14.096" classname="linagora.linshare.sharedspace.SharedSpace_03_Workgroup_Write_Role" />
+      
+</testsuite>

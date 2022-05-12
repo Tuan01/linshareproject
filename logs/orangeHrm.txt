@@ -1,0 +1,32 @@
+[INFO ] [2022-03-02 19:10:35,961] Pre-Condition - Step 01: Enter to Email textbox
+[INFO ] [2022-03-02 19:10:36,879] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2022-03-02 19:10:37,069] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2022-03-02 19:10:37,313] Pre-Condition - Step 04: Verify the welcome message popup is displayed
+[INFO ] [2022-03-02 19:10:49,331] HomePage - Step 01: Open The Shared Space Menu
+[INFO ] [2022-03-02 19:10:51,617] SharedSpace - Step 02: Click On The Add Menu Group Button 
+[INFO ] [2022-03-02 19:10:51,790] SharedSpace - Step 03: Click On The Workgroup Item
+[INFO ] [2022-03-02 19:10:52,443] SharedSpace - Step 04: Verify The Create New Workgroup Popup Displayed
+[INFO ] [2022-03-02 19:10:52,557] SharedSpace - Step 05: Enter New Name of workgroup with value'Automation Testing'
+[INFO ] [2022-03-02 19:10:53,260] SharedSpace - Step 06: Verify workgroup created successfully
+[INFO ] [2022-03-02 19:10:58,551] SharedSpace - Step 01: Click To Workgroup Named 'Automation Testing'
+[INFO ] [2022-03-02 19:10:58,740] SharedSpace - Step 02: Verify Detail of Workgroup Dispalayed
+[INFO ] [2022-03-02 19:11:00,329] SharedSpace - Step 03: Click On The Add Menu Group Button 
+[INFO ] [2022-03-02 19:11:00,590] SharedSpace - Step 04: Click On The Folder Item
+[INFO ] [2022-03-02 19:11:00,981] SharedSpace - Step 05: Verify The Create New Folder Popup Displayed
+[INFO ] [2022-03-02 19:11:01,330] SharedSpace - Step 07: Enter New Name of workgroup with value'AT_New Folder'
+[INFO ] [2022-03-02 19:11:01,771] SharedSpace - Step 07: Verify Folder created successfully
+[INFO ] [2022-03-02 19:11:07,657] SharedSpace - Step 01: Upload Mutiple File
+[INFO ] [2022-03-02 19:11:07,786] SharedSpace - Step 02: Verify the toast message displayed successfully 
+[INFO ] [2022-03-02 19:11:14,673] ShareSpace - Step 03: Verify list of file are displayed
+[INFO ] [2022-03-02 19:11:19,775] SharedSpace - Step 01: Click On The Add Menu Group Button 
+[INFO ] [2022-03-02 19:11:19,913] SharedSpace - Step 02: Click On The Add a Member Item
+[INFO ] [2022-03-02 19:11:20,369] SharedSpace - Step 03: Select role 'Contributor' for recipient
+[INFO ] [2022-03-02 19:11:21,947] SharedSpace - Step 04: Enter the recipient
+[INFO ] [2022-03-02 19:11:22,403] SharedSpace - Step 05: Select the member from seuggesstion
+[INFO ] [2022-03-02 19:11:23,420] Shared Space - Step 06: Verify recipient is added successfully 
+[INFO ] [2022-03-02 19:11:24,321] SharedSpace - Step 07: Close slidebar
+[INFO ] [2022-03-02 19:11:29,566] MySpace - Step 01: Click on Human icon on top menu
+[INFO ] [2022-03-02 19:11:30,680] MySpace - Step 02: Click Logout button for account named 'walker.mccallister@linshare.org'
+[INFO ] [2022-03-02 19:11:30,843] LoginPage - Step 03: Invited User fills in some information to log in
+[INFO ] [2022-03-02 19:11:32,978] HomePage - Step 05: Open the shared spacw
+[INFO ] [2022-03-02 19:11:36,432] SharedSpace - Step 06: Verify workgroup named 'Automation Testing' is displayed

@@ -4,7 +4,75 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87023fd8-8f4a-4b95-8260-dfeaff8d0deb" name="Default Changelist" comment="" />
+    <list default="true" id="87023fd8-8f4a-4b95-8260-dfeaff8d0deb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/orangeHrm.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/orangeHrm.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/orangeHrm.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/orangeHrm.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ExtentReportV4/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ExtentReportV4/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commons/BasePage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commons/BasePage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commons/BasePage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commons/BasePage$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commons/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commons/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commons/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commons/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commons/Browser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commons/Browser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commons/Environment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commons/Environment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commons/GlobalConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commons/GlobalConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commons/MethodListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commons/MethodListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commons/TestNGAppender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commons/TestNGAppender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commons/VerificationFailures.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commons/VerificationFailures.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/ActivityLogPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/ActivityLogPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/ContactListPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/ContactListPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/CurrentUploadPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/CurrentUploadPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/GuestPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/GuestPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/HomePageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/HomePageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/LoginMailPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/LoginMailPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/LoginPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/LoginPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/MySpacePageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/MySpacePageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/PageGeneratorManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/PageGeneratorManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/ReceivedSharesPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/ReceivedSharesPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/SharedSpacePageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/SharedSpacePageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/UploadRequestPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/UploadRequestPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/WebMailPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/WebMailPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageUIs/ActivityLogPageUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageUIs/ActivityLogPageUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageUIs/BasePageUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageUIs/BasePageUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageUIs/ContactListPageUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageUIs/ContactListPageUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageUIs/CurrentUploadPageUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageUIs/CurrentUploadPageUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageUIs/GuestPageUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageUIs/GuestPageUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageUIs/HomePageUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageUIs/HomePageUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageUIs/LoginMailPageUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageUIs/LoginMailPageUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageUIs/LoginPageUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageUIs/LoginPageUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageUIs/MySpacePageUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageUIs/MySpacePageUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageUIs/ReceivedSharesPageUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageUIs/ReceivedSharesPageUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageUIs/SharedSpacePageUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageUIs/SharedSpacePageUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageUIs/UploadRequestPageUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageUIs/UploadRequestPageUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageUIs/WebMailPageUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageUIs/WebMailPageUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/reportConfig/AllureReportListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/reportConfig/AllureReportListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/reportConfig/ExtendReportListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/reportConfig/ExtendReportListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/reportConfig/ReportNGListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/reportConfig/ReportNGListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testdata/UserData$Folder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testdata/UserData$Folder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testdata/UserData$Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testdata/UserData$Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testdata/UserData$Loginecipient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testdata/UserData$Loginecipient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testdata/UserData$QucikShare.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testdata/UserData$QucikShare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testdata/UserData$Rename.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testdata/UserData$Rename.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testdata/UserData$WebMail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testdata/UserData$WebMail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testdata/UserData$WorkgGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testdata/UserData$WorkgGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testdata/UserData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testdata/UserData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/linagora/linshare/currentuploadpage/CurrentUpload_UploadFile_And_ActionFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/linagora/linshare/currentuploadpage/CurrentUpload_UploadFile_And_ActionFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/linagora/linshare/currentuploadpage/CurrentUpload_Upload_Multiple_File_And_ActionFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/linagora/linshare/currentuploadpage/CurrentUpload_Upload_Multiple_File_And_ActionFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/linagora/linshare/homepage/HomePage_Link_To_Page_And_Default_Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/linagora/linshare/homepage/HomePage_Link_To_Page_And_Default_Page.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/linagora/linshare/myspacepage/MySpace_00_items_Files.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/linagora/linshare/myspacepage/MySpace_00_items_Files.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/linagora/linshare/myspacepage/MySpace_01_One_File_And_One_Recipient_Share_File_Funtion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/linagora/linshare/myspacepage/MySpace_01_One_File_And_One_Recipient_Share_File_Funtion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/linagora/linshare/myspacepage/MySpace_02_Multiple_Recipient_And_One_File_Share_File_Funtion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/linagora/linshare/myspacepage/MySpace_02_Multiple_Recipient_And_One_File_Share_File_Funtion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/linagora/linshare/myspacepage/MySpace_03_Multiple_File_And_One_Recipient_Share_File_Funtion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/linagora/linshare/myspacepage/MySpace_03_Multiple_File_And_One_Recipient_Share_File_Funtion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/linagora/linshare/myspacepage/MySpace_04_Multiple_File_And_Recipient_Share_File_Funtion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/linagora/linshare/myspacepage/MySpace_04_Multiple_File_And_Recipient_Share_File_Funtion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/linagora/linshare/myspacepage/MySpace_05_items_Files.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/linagora/linshare/myspacepage/MySpace_05_items_Files.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/linagora/linshare/sharedspace/SharedSpace_01_Workgroup_Admin_Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/linagora/linshare/sharedspace/SharedSpace_01_Workgroup_Admin_Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/linagora/linshare/sharedspace/SharedSpace_02_Workgroup_Contributor_Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/linagora/linshare/sharedspace/SharedSpace_02_Workgroup_Contributor_Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/linagora/linshare/sharedspace/SharedSpace_03_Workgroup_Write_Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/linagora/linshare/sharedspace/SharedSpace_03_Workgroup_Write_Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/linagora/linshare/sharedspace/SharedSpace_04_Workgroup_Reader_Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/linagora/linshare/sharedspace/SharedSpace_04_Workgroup_Reader_Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/linagora/linshare/sharedspace/SharedSpace_05_File_In_Workgroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/linagora/linshare/sharedspace/SharedSpace_05_File_In_Workgroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/linagora/linshare/sharedspace/SharedSpace_06_Folder_In_Workgroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/linagora/linshare/sharedspace/SharedSpace_06_Folder_In_Workgroup.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +85,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -34,7 +105,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/reportConfig" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -52,6 +123,23 @@
       <recent name="pageUIs" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="/Users/yourrentals/Java/linshareproject/src/test/resources/runLinshareTestCases.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hybrid-linshare-framework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/runLinshareTestCases.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/yourrentals/Java/linshareproject/src/test/resources/runLinshareTestCases.xml" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,6 +150,28 @@
       <updated>1624808823205</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/pageObjects/PageGeneratorManager.java</url>
+          <line>33</line>
+          <properties class="pageObjects.PageGeneratorManager" method="getLoginMailPage">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/pageObjects/PageGeneratorManager.java</url>
+          <line>36</line>
+          <properties class="pageObjects.PageGeneratorManager" method="getWebMailPage">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
